@@ -127,12 +127,28 @@
     margin-left: 45px;
     margin-top: 0px;
 	text-indent: 2em;
+	color:#F2AD24;
 }
 
 .me_img {
     width: 800px;
     height: 600px;
 }
+.videos {
+	display: flex;
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
 
-
+.span {
+    width: 400px;
+    color:#15EDC6;
+    text-indent: 2em;
+	float: left;
+	line-height:36px;
+    font-size: 12px;
+    margin-top: 50px;
+	margin-right: 50px;
+	
+}
 
