@@ -258,14 +258,4 @@ audio {
     animation: muscis 5s linear infinite;
 }
 
-@keyframes muscis {
-    from {
-        transform: rotate (0deg);
-        opacity: .6;
-    }
-    to {
-        transform: rotate(360deg);
-        opacity: .8;
-    }
-}
 
