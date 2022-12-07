@@ -63,7 +63,7 @@
     top: 300px;
     margin: auto;
     bottom: 0;
-    color: #fff;
+    color: #FFFFFF;
     font-size: 24px;
     font-weight: 500;
 }
@@ -76,7 +76,7 @@
     top: 350px;
     margin: auto;
     bottom: 0;
-    color: #fff;
+    color: #FFFFFF;
     font-size: 20px;
     font-weight: 500;
 }
@@ -85,7 +85,7 @@
 	border:5px solid rgba(0,0,0,0.4);
 	width: 100px;
 	height: 100px;
-	background-image: url("b.jpg");
+	background-image: url("1.jpg");
 	background-clip: padding-box;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -190,3 +190,82 @@
     font-size: 20px;
     font-weight: 500;
 }
+.icon {
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    position: absolute;
+    left: 49%;
+    bottom: 50px;
+    animation: downs 2s linear infinite;
+}
+
+@keyframes downs {
+    from {
+        transform: translatey(0px);
+        opacity: .6;
+    }
+    to {
+        transform: translatey(30px);
+        opacity: .8;
+    }
+}
+.introduce {
+    display: flex;
+    flex-direction: column;
+}
+
+.introduce_item {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.introduce_item_img {
+    width: 800px;
+    height: 500px;
+}
+
+.introduce_item_title {
+    width: 300px;
+    font-size: 18px;
+    line-height: 36px;
+    align-self: center;
+    padding-left: 100px;
+}
+
+.introduce_item_titles {
+    width: 300px;
+    font-size: 18px;
+    line-height: 36px;
+    align-self: center;
+    padding-right: 100px;
+}
+audio {
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+}
+
+.music_img {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 40px;
+    height: 30px;
+    animation: muscis 5s linear infinite;
+}
+
+@keyframes muscis {
+    from {
+        transform: rotate (0deg);
+        opacity: .6;
+    }
+    to {
+        transform: rotate(360deg);
+        opacity: .8;
+    }
+}
+

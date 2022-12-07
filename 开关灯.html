@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        div{
+            width:400px;
+            margin:200px auto;
+        }
+        img
+        {
+            <!--margin:200px;-->
+        }
+    </style>
+    <script type="text/javascript">
+        function my_open()
+        {
+            let my_image=document.getElementById("my_img");
+            my_image.src="file:///C:/Users/%E6%9C%B1%E4%B8%80%E9%BE%99%E7%9A%84%E5%B0%8F%E5%8F%AF%E7%88%B1/Documents/WPS%20Cloud%20Files/1042793562/n.png";
+        }
+        function my_close()
+        {
+            let my_image=document.getElementById("my_img");
+            my_image.src="m.png";
+        }
+    </script>
+</head>
+<body>
+<div>
+    <button onclick="my_close()" >关灯</button>
+    <img id="my_img" src="m.png" alt="#" />
+    <button onclick="my_open()" >开灯</button>
+</div>
+</body>
+</html>
