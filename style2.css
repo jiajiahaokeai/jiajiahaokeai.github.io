@@ -1,129 +1,41 @@
 @charset "utf-8";
 /* CSS Document */
-* {
-    margin: 0;
-    padding: 0
-}
-
-.from {
-    overflow: hidden;
-    position: relative;
-}
-
-.bgc {
-    width: 100%;
-	height: 750px;
-}
-
-.submit {
-    position: absolute;
-    z-index: 9;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    margin-top: 150px;
-    width: 500px;
-    height: 500px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-}
-
-.form_title {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 18px;
-}
-
-.form_input {
-    padding: 0 30px;
-    box-sizing: border-box;
-    display: flex;
-    margin-top: 20px;
-}
-
-.inputs {
-    height: 40px;
-    width: 300px;
-    border-radius: 5px;
-    border: none;
-    background-color: #eee;
-    color: #666;
-    padding-left: 20px;
-}
-
-.form_input span {
-    width: 85px;
-    align-self: center;
-}
-
-.btn_submit {
-    align-self: center;
-}
-
-.btn {
-    border: none;
-    width: 80px;
-    height: 40px;
-    color: #fff;
-    border-radius: 5px;
-    background: #999;
-    margin-top: 40px;
-}
-
-.btn:hover {
-    background: #666;
-}
-
-.back {
-    margin-left: 10px;
-}
-
-.home_href {
-    border: none;
-    width: 80px;
-    height: 40px;
-    color: #fff;
-    border-radius: 5px;
-    backround: #FFD204;
-}
-#container{
-	height: 100%;
-	text-align: center;
-}
-#container.column{
-	position: relative;
-	float:none;
-	margin-bottom: 10px;
-}
-.block{
-	width: 168px;
-	border:1px solid #C5C5C5;
-	padding: 1px 1px 14px 1px;
-	margin-bottom: 4px;
-	text-align: center;
-}
-#navigation{
-	width:168px;
-	margin:0px;
+*{
 	padding:0px;
-}
-#navigation li{
-	list-style-type: none;
+	margin:0px;
 	line-height: 20px;
-	padding: 0 0 0 13px;
 }
-.color{
-	background-color: #EBEBEB；
+body{
+	height: 100%;
+	background-color: #f31e9;
+	position: relative;
 }
-#navigation a{
-	color:#000000;
-	text-decoration: none;
+img{
+	border: 0px;
 }
-#navigation a:hover{
-	color:#1419F0;
+#main_block{
+	font-family: Arial,Helvetica,sns-serif;
+	font-size: 12px;
+	color: #464646;
+	overflow: hidden;
+	float:left;
+	width: 752px;
+}
+.content_main{
+	width: 720px;
+	float:left;
+	padding: 20px 0 10px 20px;
+}
+.box_details{
+	padding: 10px 0 10px 0;
+	margin:10px 20px 10px 0;
+	clear:both;
+}
+.box_details p{
+	padding: 5px 15px 5px 15px;
+	text-indent: 2em
+}
+img.right{
+	float: right;
+	padding: 0 0 0 30px;
 }
